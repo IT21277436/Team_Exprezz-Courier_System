@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228497742481",
+    "project_id": "mad-courier-system",
+    "storage_bucket": "mad-courier-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228497742481:android:210cf4b1639fb4c50cfd30",
+        "android_client_info": {
+          "package_name": "com.example.couriersystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228497742481-pdhalqajd1fs0btu740thkbnqp603r70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE2tooecwjPdPZxD5-XRYJ7FnmucNqemc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228497742481-pdhalqajd1fs0btu740thkbnqp603r70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

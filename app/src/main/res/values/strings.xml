@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CourierSystem</string>
+    <string name="add_delivery">ADD DELIVERY</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="service">SERVICE</string>
+    <string name="reset">RESET</string>
+    <string name="submit">SUBMIT</string>
+    <string name="update">UPDATE</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="parcel_description">Parcel Box Image</string>
+    <string name="vehicle">VEHICLE</string>
+    <string name="rider">RIDER</string>
+    <string name="home_img_des">Home Image</string>
+    <string name="courier_service">EXPREZZ COURIER SERVICE</string>
+    <string name="receiver_address">Receiver\'s Address</string>
+    <string name="receiver_name">Receiver\'s Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="arrow_des">Right Arrow</string>
+    <string name="malabe">Malabe</string>
+    <string name="maharagama">Maharagama</string>
+    <string name="colombo">Colombo</string>
+    <string name="kottawa">Kottawa</string>
+    <string name="homagama">Homagama</string>
+    <string name="kadawatha">Kadawatha</string>
+    <string name="complete">Complete</string>
+    <string name="intransit">In transit</string>
+    <string name="preparing">Preparing</string>
+    <string name="weight">Weight</string>
+    <string name="address">Address</string>
+    <string name="grams">g</string>
+
+    <string-array name="pickup_locations">
+        <item>Select Pickup Location</item>
+        <item>Malabe</item>
+        <item>Maharagama</item>
+        <item>Colombo</item>
+        <item>Kottawa</item>
+        <item>Homagama</item>
+        <item>Kadawatha</item>
+    </string-array>
+    <string-array name="weight">
+        <item>g</item>
+        <item>kg</item>
+    </string-array>
+    <string-array name="delivery_category">
+        <item>Select Category</item>
+        <item>Document</item>
+        <item>Food</item>
+        <item>Groceries</item>
+        <item>Business Supplies</item>
+        <item>Clothes</item>
+        <item>Household</item>
+        <item>Electronics</item>
+        <item>Sports</item>
+        <item>Other</item>
+    </string-array>
+</resources>
