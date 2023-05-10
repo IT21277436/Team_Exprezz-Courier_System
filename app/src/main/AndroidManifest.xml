@@ -12,19 +12,34 @@
         android:theme="@style/Theme.CourierSystem"
         tools:targetApi="31">
         <activity
-            android:name=".activities.DeliveryEdit"
+            android:name=".activities_IT21283994.RegisterDriver"
+            android:exported="false" />
+        <activity
+            android:name=".activities_IT21283994.FetchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities_IT21283994.RegisterDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activities_IT21283994.EditRegister"
+            android:exported="false" />
+        <activity
+            android:name=".activities_IT21283994.DriverHome"
+            android:exported="false" />
+        <activity
+            android:name=".activities_IT21277436.DeliveryEdit"
             android:exported="false" />
         <activity
             android:name=".Testing"
             android:exported="false" />
         <activity
-            android:name=".activities.DeliveryDashboard"
+            android:name=".activities_IT21277436.DeliveryDashboard"
             android:exported="false" />
         <activity
-            android:name=".activities.DeliveryService"
+            android:name=".activities_IT21277436.DeliveryService"
             android:exported="false" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities_IT21277436.ServicePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

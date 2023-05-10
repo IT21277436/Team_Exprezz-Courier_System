@@ -1,4 +1,4 @@
-package com.example.couriersystem.activities
+package com.example.couriersystem.activities_IT21277436
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.couriersystem.R
-import com.example.couriersystem.adapters.DelAdapter
-import com.example.couriersystem.models.DeliveryModel
+import com.example.couriersystem.adapters_IT21277436.DelAdapter
+import com.example.couriersystem.models_IT21277436.DeliveryModel
 import com.google.firebase.database.*
 
 class DeliveryDashboard : AppCompatActivity() {
@@ -23,7 +23,7 @@ class DeliveryDashboard : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_delivery_dashboard)
+        setContentView(R.layout.it21277436_delivery_dashboard)
 
         delRecyclerView = findViewById(R.id.rvDelivery)
         delRecyclerView.layoutManager = LinearLayoutManager(this)

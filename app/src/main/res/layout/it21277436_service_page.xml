@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    tools:context=".activities_IT21277436.ServicePage">
 
     <Button
         android:id="@+id/button2"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.943" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btDelivery"
         android:layout_width="308dp"
         android:layout_height="145dp"
         android:backgroundTint="@color/home_light_green"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btRider"
         android:layout_width="140dp"
         android:layout_height="160dp"
         android:backgroundTint="@color/home_light_green"

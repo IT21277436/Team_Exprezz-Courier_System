@@ -1,4 +1,4 @@
-package com.example.couriersystem.adapters
+package com.example.couriersystem.adapters_IT21277436
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.couriersystem.R
-import com.example.couriersystem.models.DeliveryModel
+import com.example.couriersystem.models_IT21277436.DeliveryModel
 
 class DelAdapter (private val delList: ArrayList<DeliveryModel>) : RecyclerView.Adapter<DelAdapter.ViewHolder>() {
 
@@ -22,7 +22,7 @@ class DelAdapter (private val delList: ArrayList<DeliveryModel>) : RecyclerView.
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        var itemView = LayoutInflater.from(parent.context).inflate(R.layout.activity_delivery_list, parent, false)
+        var itemView = LayoutInflater.from(parent.context).inflate(R.layout.it21277436_delivery_list, parent, false)
         return ViewHolder(itemView, dListener)
     }
 

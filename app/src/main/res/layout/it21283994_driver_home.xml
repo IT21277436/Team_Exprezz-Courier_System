@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities_IT21283994.DriverHome">
+
+
+    <View
+        android:id="@+id/view3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_width="431dp"
+        android:layout_height="169dp"
+        android:background="#074C3E"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <View
+        android:id="@+id/view2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415"
+        android:layout_width="438dp"
+        android:layout_height="446dp"
+        android:background="#0E9576"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="276dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif-black"
+        android:text="DRIVER"
+        android:textAlignment="textEnd"
+        android:textColor="#11675F"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/Driver"
+        android:layout_width="198dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-black"
+        android:text="WELCOME"
+        android:textAlignment="textEnd"
+        android:textColor="#009673"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/DriverLogo"
+        android:layout_width="281dp"
+        android:layout_height="31dp"
+        android:fontFamily="sans-serif-black"
+        android:text="or"
+        android:textAlignment="center"
+        android:textColor="#07372C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/profile" />
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="223dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-black"
+        android:text="Register"
+        android:textColor="#136860"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="147dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#8BC34A"
+        android:fontFamily="sans-serif-black"
+        android:text="Login"
+        android:textColor="#066841"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <Button
+        android:id="@+id/btnFetchButton"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#9AF44336"
+        android:fontFamily="sans-serif-black"
+        android:text="View Drivers"
+        android:textColor="#EBEFED"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

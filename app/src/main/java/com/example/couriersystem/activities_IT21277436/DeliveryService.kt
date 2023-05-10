@@ -1,4 +1,4 @@
-package com.example.couriersystem.activities
+package com.example.couriersystem.activities_IT21277436
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
-import com.example.couriersystem.models.DeliveryModel
+import com.example.couriersystem.models_IT21277436.DeliveryModel
 import com.example.couriersystem.R
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -27,7 +27,7 @@ class DeliveryService : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_deliveryservice)
+        setContentView(R.layout.it21277436_deliveryservice)
 
         etpickUp = findViewById(R.id.spPickup)
         etpkgWeight = findViewById(R.id.txtWeight)

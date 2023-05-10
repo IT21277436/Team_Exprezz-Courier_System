@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_green"
-    tools:context=".activities.DeliveryDashboard">
+    tools:context=".activities_IT21277436.DeliveryDashboard">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardView3"
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
         app:layout_constraintVertical_bias="0.18"
-        tools:listitem="@layout/activity_delivery_list" />
+        tools:listitem="@layout/it21277436_delivery_list" />
 
     <TextView
         android:id="@+id/tvLoadingData"

@@ -1,4 +1,4 @@
-package com.example.couriersystem.models
+package com.example.couriersystem.models_IT21277436
 
 data class DeliveryModel (
 
