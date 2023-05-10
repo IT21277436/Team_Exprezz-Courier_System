@@ -56,4 +56,29 @@
         <item>Sports</item>
         <item>Other</item>
     </string-array>
+
+    <string name="welcome">WELCOME</string>
+    <string name="best_package_delivery_just_for_you">Best Package Delivery just for you</string>
+    <string name="we_provide_to_your_doorstep_parcels_and_goods_at_anytime.">We provide to your doorstep parcels and goods at anytime.</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="con_guest">Continue As Guest</string>
+    <string name="login">LOG IN</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="forgotten_password">Forgotten Password ?</string>
+    <string name="facebook">\tFacebook</string>
+    <string name="google">\tGoogle</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="name">\tName</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="username">Username</string>
+    <string name="user_id">User ID</string>
+    <string name="editprofile">EDIT PROFILE</string>
+    <string name="new_password">New Password</string>
+    <string name="read">Read Data</string>
+    <string name="delete_profile">DELETE PROFILE</string>
+    <string name="updateprofile">UPDATE PROFILE</string>
+
+
 </resources>

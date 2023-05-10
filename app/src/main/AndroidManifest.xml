@@ -12,6 +12,21 @@
         android:theme="@style/Theme.CourierSystem"
         tools:targetApi="31">
         <activity
+            android:name=".IT21277504.RegisterCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".IT21277504.CustomerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".IT21277504.CustomerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".IT21277504.CustomerEdit"
+            android:exported="false" />
+        <activity
+            android:name=".IT21277504.CustomerDelete"
+            android:exported="false" />
+        <activity
             android:name=".activities_IT21283994.RegisterDriver"
             android:exported="false" />
         <activity
@@ -30,9 +45,6 @@
             android:name=".activities_IT21277436.DeliveryEdit"
             android:exported="false" />
         <activity
-            android:name=".Testing"
-            android:exported="false" />
-        <activity
             android:name=".activities_IT21277436.DeliveryDashboard"
             android:exported="false" />
         <activity
@@ -40,6 +52,9 @@
             android:exported="false" />
         <activity
             android:name=".activities_IT21277436.ServicePage"
+            android:exported="false" />
+        <activity
+            android:name=".IT21277504.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
