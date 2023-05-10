@@ -15,14 +15,14 @@ class CustomerEdit : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = It21277504CustomerEditBinding.inflate(layoutInflater)
-        setContentView(R.layout.it21277504_customer_edit)
+        setContentView(binding.root)
 
-        binding.button.setOnClickListener {
+        binding.btCusEdit.setOnClickListener {
 
-            var name = binding.name.text.toString()
+            var name = binding.username.text.toString()
             var address = binding.address.text.toString()
-            var mnumber = binding.mnumber.text.toString()
-            var password = binding.password.text.toString()
+            var mnumber = binding.rdMobile.text.toString()
+            var password = binding.rdAddress.text.toString()
 
             updateData(name,address,mnumber,password)
 
@@ -40,10 +40,10 @@ class CustomerEdit : AppCompatActivity() {
 
         database.child(name).updateChildren(user).addOnSuccessListener {
 
-            binding.name.text.clear()
+            binding.username.text.clear()
             binding.address.text.clear()
-            binding.mnumber.text.clear()
-            binding.password.text.clear()
+            binding.rdMobile.text.clear()
+            binding.rdAddress.text.clear()
             Toast.makeText(this,"Successfully Updated", Toast.LENGTH_SHORT).show()
 
         }.addOnFailureListener{

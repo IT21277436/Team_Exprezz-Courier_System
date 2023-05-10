@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.193" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/username"
         android:layout_width="353dp"
         android:layout_height="52dp"
         android:background="@drawable/edit_text"
@@ -85,7 +85,7 @@
         app:layout_constraintVertical_bias="0.564" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/rdMobile"
         android:layout_width="353dp"
         android:layout_height="52dp"
         android:layout_marginStart="29dp"

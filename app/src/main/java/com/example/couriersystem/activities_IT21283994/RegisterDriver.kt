@@ -25,7 +25,7 @@ class RegisterDriver : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.it212283994_register)
+        setContentView(R.layout.it21283994_register)
 
         etName = findViewById(R.id.etName)
         etAddress = findViewById(R.id.etAddress)

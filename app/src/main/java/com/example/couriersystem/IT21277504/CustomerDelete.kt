@@ -20,7 +20,7 @@ class CustomerDelete : AppCompatActivity() {
 
         binding.button11.setOnClickListener {
 
-            var name = binding.name.text.toString()
+            var name = binding.username.text.toString()
             if(name.isNotEmpty()) {
                 deleteData(name)
 
@@ -35,7 +35,7 @@ class CustomerDelete : AppCompatActivity() {
         database = FirebaseDatabase.getInstance().getReference("Users")
         database.child(name).removeValue().addOnSuccessListener {
 
-            binding.name.text.clear()
+            binding.username.text.clear()
             Toast.makeText(this,"Succesfully Deleted",Toast.LENGTH_SHORT).show()
 
         }.addOnFailureListener{

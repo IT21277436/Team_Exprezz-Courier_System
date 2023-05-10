@@ -18,19 +18,19 @@ class RegisterCustomer : AppCompatActivity() {
 
         binding.button.setOnClickListener {
 
-            val name = binding.name.text.toString()
+            val name = binding.username.text.toString()
             val address = binding.address.text.toString()
-            val mnumber = binding.mnumber.text.toString()
-            val password = binding.password.text.toString()
+            val mnumber = binding.rdMobile.text.toString()
+            val password = binding.rdAddress.text.toString()
 
             database = FirebaseDatabase.getInstance().getReference("Users")
             val User = User(name,address, mnumber,password)
             database.child(name).setValue(User).addOnSuccessListener{
 
-                binding.name.text.clear()
+                binding.username.text.clear()
                 binding.address.text.clear()
-                binding.mnumber.text.clear()
-                binding.password.text.clear()
+                binding.rdMobile.text.clear()
+                binding.rdAddress.text.clear()
 
                 Toast.makeText(this,"Successfully Saved", Toast.LENGTH_SHORT).show()
             }.addOnFailureListener{

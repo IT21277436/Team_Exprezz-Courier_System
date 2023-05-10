@@ -26,11 +26,8 @@ class CustomerProfile : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Changed the name of the Firebase database reference to match the one in the Firebase console
-        database = FirebaseDatabase.getInstance().getReference("User")
-
         binding.button.setOnClickListener{
-            var name : String = binding.name.text.toString()
+            var name : String = binding.username.text.toString()
 
 
             if(name.isNotEmpty()){
@@ -48,6 +45,7 @@ class CustomerProfile : AppCompatActivity() {
 
     private fun readData(name : String) {
 
+        database = FirebaseDatabase.getInstance().getReference("Users")
         database.child(name).get().addOnSuccessListener {
 
             if(it.exists()){
@@ -55,9 +53,10 @@ class CustomerProfile : AppCompatActivity() {
                 val address = it.child("address").value
                 val mnumber = it.child("mnumber").value
                 Toast.makeText(this,"Successfully Read", Toast.LENGTH_SHORT).show()
-                binding.name.text.clear()
+                binding.username.text.clear()
                 binding.address.text.clear()
-                binding.mnumber.setText(address.toString())
+                binding.rdAddress.setText(address.toString())
+                binding.rdMobile.setText(mnumber.toString())
 
 
             }else{
